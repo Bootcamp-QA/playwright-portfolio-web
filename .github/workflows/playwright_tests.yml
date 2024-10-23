@@ -32,7 +32,7 @@ jobs:
 
     - name: Run test on mobile iphone
       run: |
-        pytest --tracing=retain-on-failure --video=retain-on-failure --html=resultsmobileiphone.html --device="iPhone 12"
+        pytest --tracing=retain-on-failure --video=retain-on-failure --html=resultsmobile.html --device="iPhone 12"
 
 
     - uses: actions/upload-artifact@v4
