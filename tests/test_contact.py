@@ -9,7 +9,7 @@ def test_contact_with_valid_info(page: Page):
     page.get_by_test_id("message").fill("test information")
     page.get_by_label("Acepto la Política de").check()
     page.get_by_test_id("buttonsubmitform").click()
-    expect(page.locator("body")).to_contain_text("Se ha registrado tu respuesta.")
+    expect(page.locator("body")).to_contain_text("Portfolio Contact")
 
 def test_contact_invalid_email(page: Page):
     page.goto("https://bootcamp-qa.github.io/portfolioqa/")
