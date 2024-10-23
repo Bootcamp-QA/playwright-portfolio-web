@@ -4,7 +4,7 @@ Template para crear un proyecto de **Playwright** con **Python** para realizar p
 
 ## Descripción
 
-Este proyecto realiza pruebas E2E en la web [Bootcamp QA](https://bootcampqa.com), generando un reporte de resultados y grabaciones en video. Las pruebas se ejecutan tanto en **Chrome** (escritorio) como en **iPhone 12** (móvil, emulado).
+Este proyecto realiza pruebas E2E en la web [Portfolio QA Reyes](https://bootcamp-qa.github.io/portfolioqa/), generando un reporte de resultados y grabaciones en video. Las pruebas se ejecutan tanto en **Chrome** (escritorio) como en **iPhone 12** (móvil, emulado).
 
 ## Tecnologías
 
@@ -15,7 +15,7 @@ Este proyecto realiza pruebas E2E en la web [Bootcamp QA](https://bootcampqa.com
 
 El estado de las pruebas se puede ver mediante el siguiente badge de **GitHub Actions**:
 
-![Test Workflow](https://github.com/Bootcamp-QA/playwright-python-template/actions/workflows/playwright_tests.yml/badge.svg)
+![Test Workflow](https://github.com/Bootcamp-QA/playwright-portfolio-web/actions/workflows/playwright_tests.yml/badge.svg)
 
 ## Requisitos
 
